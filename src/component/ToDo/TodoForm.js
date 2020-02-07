@@ -7,7 +7,7 @@ export default function TodoForm() {
 
     const handleOnSubmit = (e) => {
         e.preventDefault();
-        todo.add(newItem);
+        todo.addAsync(newItem);
         setNewItem('');
     }
 
